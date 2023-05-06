@@ -6,10 +6,10 @@ function Card({ title, time, Location, Price, Type, Mode }) {
   return (
     <>
       <div className="flex mx-11 my-5">
-        <div className="bg-white shadow-2xl hover:shadow-none cursor-pointer w-[350px] h-[407px] rounded-sm flex flex-col pb-4">
-          <div className="relative">
-            <img className="px-4 py-2" src={image1} alt="My Image" />
-            <FaRegHeart className="absolute left-72 top-2 text-white h-10 w-6 hover:text-red-600"></FaRegHeart>
+        <div className=" relative bg-white shadow-2xl hover:shadow-none cursor-pointer w-92 h-100 rounded-sm flex flex-col pb-4">
+          <div>
+          <img className=" relative px-4 py-2" src={image1} alt="My Image" />
+          <FaRegHeart className="absolute left-[80%] top-2 text-white h-10 w-6 hover:text-red-600"></FaRegHeart>
           </div>
           <span className="text-2xl font-bold font-serif mx-4">{title}</span>
           <span className="text-sm text-orange-400 mx-4 my-2 font-semibold">
